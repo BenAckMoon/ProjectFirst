@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="../css/contact.css" rel="stylesheet" />
+    
+</head>
+<body>
+
+      <div>
+        <div class="topnav">
+            <a href="../index.html" class="active">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a> 
+        </div>  
+      </div>
+
+      <h1>Contact Me</h1>
+      <div class="main-form"> 
+      <small class="title-form">Complet the form here</small>
+      <form class="form" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvoljdny" method="post">
+        
+        <fieldset id="fs-frm-inputs">
+
+          <label for="first-name">First Name</label>
+          <input type="text"
+           name="name" 
+           id="firstName" 
+           placeholder="First Name" required="">
+
+          <label for="last-name">Last Name</label>
+          <input type="text" 
+          name="name" 
+          id="lastName" 
+          placeholder="Last Name" >
+
+          <label for="email-address">Email Address</label>
+          <input type="email" 
+          name="_replyto" 
+          id="emailAddress" 
+          placeholder="email@domain.tld" required="">
+
+          <label for="comments">Comments</label>
+          <input type="text" 
+          name="comments" 
+          id="comments" placeholder="Text if you have any additional comments" >
+
+          <label for="message">Message</label>
+          <textarea rows="3" 
+          name="message" id="message" 
+          placeholder="Text your message to me !" required=""></textarea>
+
+        </fieldset>
+        <button disabled class="form-button-disabled" id="submitButton">Submit</button>      
+     
+      </form>
+      </div>
+
+      <footer>
+        <div class="navbar">
+          <a href="../index.html" class="active">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./contact.html">Contact</a> 
+        </div>
+        <div class="languages-sentence" id="codingSentence"></div>
+      </footer>
+
+      <script src="../js/contact.js"></script>
+    </body>
+  </html>

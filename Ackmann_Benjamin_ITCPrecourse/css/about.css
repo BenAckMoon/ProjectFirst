@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  left: 0px;
+  right: 0;
+  top: -5px;
+}
+.topnav a {
+	float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  width: 33.3333% ;
+  font-size: 16px;
+  border: 3px solid;
+  
+}
+.topnav a:hover {
+  background-color: rgb(158, 158, 158);
+  color: black;
+}
+.card {
+  background-color: lightgray;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 90px;
+  position: relative;
+  width: 50%;
+  display: flex;
+  margin: 100px 100px;
+  padding: 50px 55px;
+  font-size: 25px;
+  font-style: oblique;
+}
+.card:hover{
+background-color: rgba(158, 158, 158, 0.88);
+}
+
+.About-Me {
+  font-size: 16px;
+  column-count: 3;
+  display: flex;
+  align-items: baseline;
+  overflow: hidden;
+  }
+
+h1{
+  display: flex;
+  padding-top: 55px;
+  font-size: 3em;
+}
+h2 {
+ display: flex;
+ padding: 35px 20px;
+}
+
+.cities{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+.main-map{
+  width: 660px;
+  height: 509px;
+  border: 3px solid blue
+}
+.button-controle{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 120px;
+  padding: 30px -15px;
+  align-items: stretch;
+}
+
+.enabled{
+color: rgb(71, 108, 255);
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: center;
+  padding-top: 25px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  display: inline-flex;
+}
+
+.navbar a {
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  width: 33.3333% ;
+  font-size: 13px;
+  border: 1px solid;
+  
+}
+
+.navbar a:hover {
+  background-color: rgb(158, 158, 158);
+  color: black;
+}
+
+.languages-sentence{
+  background-color: rgb(158, 158, 158);
+  font-size: 13px;
+}
